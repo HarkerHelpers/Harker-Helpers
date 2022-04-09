@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+			content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<style>
+		img{
+		height: 25px;
+    align-self: center;
+		}
+		h1{
+		color: darkgreen;
+		margin-top: 20px;
+		font-family: Comic Sans MS, cursive, sans-serif;
+    align-self: center;
+		}
+		.button{
+		margin-left: 45%;
+      color: #ff0000;
+		}
+	</style>
+	<script>
+		function before(){
+			document.getElementById('myImage')
+			.src="/icons/heart.svg";
+			document.getElementById('message')
+			.innerHTML="Unfilled";
+		}
+		
+		function afterr(){
+			document.getElementById('myImage')
+			.src="/icons/heart-fill.svg";
+			document.getElementById('message')
+			.innerHTML="Filled";
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+			<h1 id="message">
+				Unfilled
+			</h1>
+			<img id="myImage"
+					src="/icons/heart.svg" >
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+	<div class="button">
+		<button class="btn btn-warning"
+				onclick=before();>
+			Unfilled
+		</button>
+		<button class="btn btn-success"
+				onclick=afterr();>
+			Filled
+		</button>
+	</div>
+</body>
+</html>

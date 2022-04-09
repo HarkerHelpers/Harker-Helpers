@@ -1,0 +1,151 @@
+body{
+  background: #eab0dc;
+}
+
+h1{
+  color: #f3e0ee;
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}
+
+.content{
+  background: #f5dbef;
+  max-width: auto;
+  align-content: center;
+  margin: 30px auto;
+  padding:  20px 30px;
+  border-width: 10px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  border-width: 10px;
+  margin-top:15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #f7e9f3;
+}
+
+
+li{
+  padding-bottom: 10px;
+  background: #f5dbef;
+  font-size: 20px;
+  color: #555;
+  position: relative;
+overflow: hidden;
+  border-width: 2px;
+  border-bottom: 1px solid #e6e6e6;
+  height: auto;
+  width: auto;
+}
+
+li span{
+  display: block;
+  border-width: 2px;
+}
+
+li span:nth-child(1){
+  text-align: center;
+  border-width: 2px;
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+li span:nth-child(2){
+  text-align: center;
+  border-width: 2px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+
+li span:nth-child(3){
+  text-align: center;
+  border-width: 2px;
+  font-size: 20px;
+  margin-top: 0px;
+  color: rgb(0, 0, 0);
+}
+
+li span:nth-child(4){
+  text-align: center;
+  border-width: 2px;
+  font-size: 25px;
+  margin-top: 15px;
+  color: rgb(0, 0, 0);
+}
+
+li span:nth-child(5){
+  text-align: center;
+  border-width: 2px;
+  font-size: 25px;
+  margin-top: 15px;
+  color: rgb(0, 0, 0);
+}
+#Com{  
+border: none;
+color: white;
+float: left;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+padding: 5px;
+cursor: pointer;
+background-color: #3eac42;
+height: 50px;
+width: 60px;
+align-items: center;
+}
+
+#Com img{
+height: 25px;
+width: 25px;
+}
+
+#Prv img{
+height: 25px;
+width: 25px;
+}
+
+[name=heart]{  
+border: none;
+color: black;
+float: right;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+padding: 5px;
+cursor: pointer;
+background-color: #858585;
+height: 50px;
+width: 50px;
+align-items: center;
+}
+
+[name=heartimg]{
+height: 25px;
+width: 25px;
+}
+
+.logo {
+height: 45px;
+}
+
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+align-self: center;
+}

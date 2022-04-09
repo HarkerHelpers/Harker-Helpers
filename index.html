@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.31/vue.cjs.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/6.0.1/esm/ionicons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.2/js/ionic.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+<script src="log.js"></script>
+    <title>Harker Helpers - Login</title>
+</head>
+<body style="font-size:25px; background-color: #add8e6;"><center>
+    <div class="formContainer">
+    <h1 style="size: 100px;">Harker Helpers Login</h1>
+   Email:<br> <input type="email" placeholder="Email" id="email"><br>
+    Password:<br><input type="password" placeholder="Password" id="password"><br><br>
+      
+    <button onclick="signIn()" id="signIn">Sign In</button>
+    <button onclick="signOut()" id="signOut">Sign Out</button><br>
+    <button onclick="signUp()" id="signUp">Sign Up</button><br>
+</div></center>
+</body>
+</html>
